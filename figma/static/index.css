@@ -1,0 +1,74 @@
+.container {
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    top:calc(50% - 90px); 
+    left:calc(50% - 180px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.blocks  {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.b1 {
+    background: #333333;
+}
+.b2 {
+    background: #4F4F4F;
+}
+.b3 {
+    background: #828282;
+}
+.b4 {
+    background: #BDBDBD;
+}
+.b5 {
+    background: #E0E0E0;
+}
+.b6 {
+    background: #F2F2F2;
+}
+.b7 {
+    background: #EB5757;
+}
+.b8 {
+    background: #F2994A;
+}
+.b9 {
+    background: #F2C94C;
+}
+.b10 {
+    background: #219653;
+}
+.b11 {
+    background: #27AE60;
+}
+.b12 {
+    background: #6FCF97;
+}
+.b13 {
+    background: #2F80ED;
+}
+.b14 {
+    background: #2D9CDB;
+}
+.b15 {
+    background: #56CCF2;
+}
+.b16 {
+    background: #9B51E0;
+}
+.b17 {
+    background: #BB6BD9;
+}
+* {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    box-sizing: border-box;  
+}

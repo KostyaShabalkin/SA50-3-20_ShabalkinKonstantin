@@ -1,0 +1,101 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    box-sizing: border-box;  
+}
+.container {
+    width: 100vw;
+    height: 800px; 
+    outline: 5px dashed black;
+    outline-offset: -8px;
+}
+.first {
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+.cube1 {
+    border: 5px solid red;
+    top: 40px;
+    right: -100px;
+}
+.cube2 {
+    border: 5px solid purple;
+    top: 100px;
+    right: -400px;
+}
+.cube3 {
+    border: 5px solid green;
+    top: 160px;
+    right: -700px;
+}
+.container_2 {
+    display: block;
+    width: 100vw;
+    height: 800px; 
+    outline: 5px dashed black;
+    outline-offset: -8px;
+    margin-top: 50px;
+}
+.first {
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+.cube1_1 {
+    background-color: red;
+    top: 120px;
+    right: -100px;
+    z-index: 1;
+}
+.cube2_2 {
+    background-color: purple;
+    right: -200px;
+    top: 60px;
+    z-index: 2;
+}
+.cube3_3 {
+    background-color:  green;
+    right: -300px;
+    z-index: 3;
+}
+.container_3 {
+    display: block;
+    width: 100vw;
+    height: 800px; 
+    outline: 5px dashed black;
+    outline-offset: -6px;
+    margin-top: 50px;
+}
+.cube1_1 {
+    background-color: red;
+    top: 120px;
+    right: -100px;
+    z-index: 1;
+}
+.cube2_2 {
+    background-color: purple;
+    right: -200px;
+    top: 60px;
+    z-index: 3;
+}
+.cube3_3 {
+    background-color:  green;
+    right: -300px;
+    z-index: 2;
+}
+.container {
+    display: block;
+    width: 100vw;
+    height: 800px; 
+    outline: 5px dashed black;
+    outline-offset: -6px;
+}
+.container {
+    display: block;
+    width: 100vw;
+    height: 800px; 
+    outline: 5px dashed black;
+    outline-offset: -6px;
+}

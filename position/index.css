@@ -5,6 +5,7 @@
     box-sizing: border-box;  
 }
 .container {
+    position: static;
     width: 100vw;
     height: 800px; 
     outline: 5px dashed black;
@@ -31,44 +32,39 @@
     right: -700px;
 }
 .container_2 {
-    display: block;
+    position: static;
     width: 100vw;
     height: 800px; 
     outline: 5px dashed black;
     outline-offset: -8px;
     margin-top: 50px;
 }
-.first {
-    position: relative;
-    width: 180px;
-    height: 180px;
-}
 .cube1_1 {
     background-color: red;
     top: 120px;
     right: -100px;
     z-index: 1;
 }
-.cube2_2 {
+.cube2_1 {
     background-color: purple;
     right: -200px;
     top: 60px;
     z-index: 2;
 }
-.cube3_3 {
+.cube3_1 {
     background-color:  green;
     right: -300px;
     z-index: 3;
 }
 .container_3 {
-    display: block;
+    position: static;
     width: 100vw;
     height: 800px; 
     outline: 5px dashed black;
     outline-offset: -6px;
     margin-top: 50px;
 }
-.cube1_1 {
+.cube1_2 {
     background-color: red;
     top: 120px;
     right: -100px;
@@ -80,22 +76,46 @@
     top: 60px;
     z-index: 3;
 }
-.cube3_3 {
+.cube3_2 {
     background-color:  green;
     right: -300px;
     z-index: 2;
 }
-.container {
-    display: block;
+.container_4 {
+    position: static;
     width: 100vw;
     height: 800px; 
     outline: 5px dashed black;
     outline-offset: -6px;
+    margin-top: 50px;
 }
-.container {
-    display: block;
-    width: 100vw;
-    height: 800px; 
-    outline: 5px dashed black;
-    outline-offset: -6px;
+.cube1_3 {
+    position: absolute;
+    background-color: greenyellow;
+    width: 60%;
+    height: 600px;
+    z-index: 1;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -30%;
 }
+.second {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 50%;
+    left: 50%;
+}
+.cube2_3 {
+    background-color: white;
+    z-index: 3;
+    margin-left: calc(-30% - 90px) ;
+    margin-top: -280px ;
+}
+.cube3_3 {
+    background-color: white;
+    z-index: 3;
+    margin-left: calc(30% - 90px) ;
+    margin-top: 100px ;
+}
+

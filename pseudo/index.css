@@ -11,3 +11,6 @@
 .container:hover {
     background: #A5A6F6;
 }
+.container:active {
+    background: #5D5FEF;
+}

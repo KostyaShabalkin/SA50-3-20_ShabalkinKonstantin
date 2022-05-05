@@ -201,9 +201,6 @@ a {
         background-color: #FFFFFF;
         height: 64px;
         width: 428px;
-        display: flex;
-        justify-content: right;
-        align-items: center;
         left: calc(50% - 428px/2);
     }
     .sh {
@@ -216,7 +213,13 @@ a {
     }
     .logo {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 113px;
+        height: 46px;
         left: 294px;
+        top: 3px;
         font-family: 'Six Caps';
         font-style: normal;
         font-weight: 400;
@@ -225,12 +228,11 @@ a {
         color: #000000;
     }
     .nav_menu {
-        display: none;
         position: absolute;
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 300;
-        font-size: 24px;
+        font-size: 12px;
         line-height: 36px;
     }
     .n_1 {
@@ -366,6 +368,35 @@ a {
         opacity: 0.5;
         border: 2px solid #000000;
         border-radius: 30px;
+    }
+    .footer {
+        position: absolute;
+        top: 826px;
+        height: 99px;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 428px;
+        left: calc(50% - 428px/2);
+    }
+    .p_1 {
+        background: url(/assets/Vector.png);
+        height: 38px;
+        width: 38px;
+        margin: 11px
+
+    }
+    .p_2 {
+        background: url(/assets/Vector-1.png);  
+        height: 38px;
+        width: 38px;
+        margin: 11px
+    }
+    .p_3 {
+        background: url(/assets/Vector-2.png);   
+        height: 38px;
+        width: 38px;
+        margin: 11px
     }
     a {
         text-decoration: none;
